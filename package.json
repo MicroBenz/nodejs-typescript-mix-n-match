@@ -6,7 +6,8 @@
   "author": "Tananan Tangthanachaikul <microbenz.prob@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node index.ts"
+    "dev": "ts-node index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "express": "^4.17.1",
