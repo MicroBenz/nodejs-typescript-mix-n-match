@@ -1,5 +1,10 @@
+/** @type { Object.<number, number> } */
 const cache = {};
 
+/**
+ * @param {number} num
+ * @returns {number}
+*/
 function factorial(num) {
   if (typeof num !== 'number') throw new Error(`Number is required`);
   if (num < 0) throw new Error(`Minus factorial isn't possible`);
